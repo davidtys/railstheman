@@ -1,0 +1,13 @@
+<h1><%= @article.title %></h1>
+
+<ul>
+<% @article.header_params.each_with_index do |(index, value), i| %>
+	<li><strong><%= index %> : </strong> <%= value %></li>
+<% end %>
+</ul>
+
+<%= @article.body.html_safe %>
+
+<div class='edit'>
+<%= link_to "Edit #{@article.title}", get_article_edit_path(@article) %>
+</div>

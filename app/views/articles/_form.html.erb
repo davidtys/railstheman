@@ -1,0 +1,24 @@
+<%= form_for @formArticle, url: @url do |f| %>
+
+  <%= f.hidden_field :oldfilename %>
+
+  <p>
+  <%= f.label :title, 'title' %>
+  <%= f.text_field :title %>
+  </p>
+
+  <p>
+  <%= f.label :tags, 'tags' %>
+  <%= f.text_field :tags %>
+  </p>
+
+  <p>
+  <%= f.text_area :body, class: 'wysihtml5' %>
+  </p>
+
+  <p>
+  <%= f.submit @submit %>
+  </p>
+  
+<% end %>
+

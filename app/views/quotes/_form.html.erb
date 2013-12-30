@@ -1,0 +1,34 @@
+<%= form_for @formQuote, url: @url do |f| %>
+
+  <%= f.hidden_field :oldfilename %>
+
+  <p>
+  <%= f.label :title, 'title' %>
+  <%= f.text_field :title %>
+  </p>
+
+  <p>
+  <%= f.label :tags, 'tags' %>
+  <%= f.text_field :tags %>
+  </p>
+
+  <p>
+  <%= f.label :author, 'author' %>
+  <%= f.text_field :author %>
+  </p>
+
+  <p>
+  <%= f.label :source, 'source' %>
+  <%= f.text_field :source %>
+  </p>
+    
+  <p>
+  <%= f.text_area :body, class: 'wysihtml5'  %>
+  </p>
+
+  <p>
+  <%= f.submit @submit %>
+  </p>
+
+<% end %>
+

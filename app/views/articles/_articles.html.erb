@@ -1,0 +1,15 @@
+<table class="bordered-table">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Tags</th>
+			<th>Category</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<% articles.each do |article| %>
+			<%= render 'article', article: article %>
+		<% end %>
+	</tbody>
+</table>

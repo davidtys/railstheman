@@ -1,0 +1,44 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+	margin-bottom: 30px !important;
+}
+.row p {
+	margin: 10px 0;
+}
+label {
+	float: left;
+	margin-right: 15px;
+	font-size: 18px !important;	
+}
+input[type=text] {
+	width: 600px;	
+}
+
+.wysihtml5 {
+	width: 800px;
+	height: 600px;
+}
+
+.row ul {
+	margin: 20px 40px;
+}
+.edit {
+	margin: 20px 40px;
+}
+.edit a {
+	font-size: 18px;
+}
+
+th {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+.title a {
+	font-size: 16px;
+}
+td {
+	padding: 5px 2px;
+}

@@ -1,0 +1,8 @@
+.form-article input[type=text] {
+	width: 400px;
+}
+
+.form-article textarea {
+	width: 800px;
+	height: 600px;	
+}
