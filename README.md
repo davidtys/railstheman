@@ -2,7 +2,7 @@
 
 <a href='http://rubyonrails.org/'>Rails</a> editor for the <a href='http://middlemanapp.com/basics/blogging/'>middleman blog</a>
 
-Manage your articles in a basic editor.
+Manage your articles in your browser.
 
 
 ## Usage
