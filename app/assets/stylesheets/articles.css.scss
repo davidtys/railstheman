@@ -42,3 +42,13 @@ th {
 td {
 	padding: 5px 2px;
 }
+
+
+h1 .about {
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: 10px;
+}
+th[data-sort]{
+  cursor:pointer;
+}

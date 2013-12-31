@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require bootstrap-wysihtml5
+//= require stupidtable.min
 
 //= require_tree .
