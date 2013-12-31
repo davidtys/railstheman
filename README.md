@@ -15,7 +15,7 @@ After you have copied this project, define the path to your middleman applicatio
 
 You can see the list of your articles and sort them, create a new one, show it and edit it.
 
-It uses my <a href='https://github.com/davidtysman/writetheman'>writetheman</a> gem to manage the middleman files, <a href='https://github.com/Nerian/bootstrap-wysihtml5-rails'>Wysihtml5</a> as editor and <a href='https://github.com/joequery/Stupid-Table-Plugin'>Stupid-Table-Plugin</a> to sort the articles table.
+It uses my <a href='https://github.com/davidtysman/writetheman'>Writetheman</a> gem to manage the middleman files, <a href='https://github.com/Nerian/bootstrap-wysihtml5-rails'>Wysihtml5</a> as editor and <a href='https://github.com/joequery/Stupid-Table-Plugin'>Stupid jQuery Table Sort</a> to sort the articles table.
 
 
 ## The Quote
