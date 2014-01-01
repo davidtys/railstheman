@@ -32,14 +32,15 @@ it contains 'quote' or 'article' or nothing (your goold old article)
 ## The generated html
 
 Please note that the Wysihtml5 editor is very light :
-it doesn't manage the <p> paragraphs, and its code for list and indent is not readable by all browsers.
+it doesn't manage the paragraphs, and its code for lists and indents is not readable by all browsers.
 
 Perhaps I'll change it later (Mercury, I'm looking at you!), but it does the job for base font and insert, and at the end it's all we really need, right ?
 
 
 ## Business projects
 
-If you need a middleman editor for business, have a look to the Middleman paid extension : <a href='http://middleman-blog-editor.awardwinningfjords.com/'>Middleman Blog Editor</a>
+If you need a middleman editor for business, have a look to the Middleman paid extension : 
+<a href='http://middleman-blog-editor.awardwinningfjords.com/'>Middleman Blog Editor</a>
 
 ## License
 
