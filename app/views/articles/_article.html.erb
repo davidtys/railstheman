@@ -3,4 +3,5 @@
 	<td><%= article.tags %></td>
 	<td><%= article.header_params['category'] %></td>
 	<td><%= article.str_date %></td>
+	<td><%= link_to "Edit", get_article_edit_path(article) %></td>
 </tr>
