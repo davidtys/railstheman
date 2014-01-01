@@ -1,5 +1,6 @@
 <tr>
 	<td class='title'><%= link_to article.title, get_article_show_path(article) %></td>
-	<td><%= article.header_params['tags'] %></td>
+	<td><%= article.tags %></td>
 	<td><%= article.header_params['category'] %></td>
+	<td><%= article.str_date %></td>
 </tr>

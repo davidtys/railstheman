@@ -115,7 +115,7 @@ GEM
     uglifier (2.3.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    writetheman (0.1.13)
+    writetheman (0.2.1)
 
 PLATFORMS
   ruby
@@ -133,4 +133,4 @@ DEPENDENCIES
   therubyracer
   twitter-bootstrap-rails
   uglifier
-  writetheman
+  writetheman (>= 0.2.1)

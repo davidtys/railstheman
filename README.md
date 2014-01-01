@@ -11,6 +11,7 @@ After you have copied this project, define the path to your middleman applicatio
 
 	config.path_application = 'yourpath'
 
+
 ## Features
 
 You can see the list of your articles and sort them, create a new one, show it and edit it.
@@ -20,9 +21,12 @@ It uses my <a href='https://github.com/davidtysman/writetheman'>Writetheman</a> 
 
 ## The Quote
 
-I have created a new type of article, the quote :
+I added a new type of article, the quote :
 
 It uses the header parameters to add the author and source to an article.
+
+To differentiate between the basic article and the quote, it add 'category' in the header parameters :
+it containts 'quote' or 'article' or nothing (your goold old article)
 
 
 ## Professional projects
