@@ -25,8 +25,8 @@ I added a new type of article, the quote :
 
 It uses the header parameters to add the author and source to an article.
 
-To differentiate between the basic article and the quote, it add 'category' in the header parameters :
-it containts 'quote' or 'article' or nothing (your goold old article)
+To differentiate between the basic article and the quote, it adds 'category' in the header parameters :
+it contains 'quote' or 'article' or nothing (your goold old article)
 
 
 ## Professional projects
