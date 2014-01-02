@@ -29,7 +29,7 @@ To differentiate between the basic article and the quote, it adds 'category' in 
 it contains 'quote' or 'article' or nothing (your goold old article)
 
 
-## The generated html
+## It is not a word-editor
 
 Please note that the Wysihtml5 editor is very light : for example it doesn't manage the paragraphs.
 
