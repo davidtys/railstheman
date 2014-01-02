@@ -4,7 +4,7 @@
 
 Manage your articles in your browser.
 
-![Alt demo](readme/railstheman-create.jpg)
+![Alt demo](readme/railstheman-index.jpg)
 
 ![Alt demo](readme/railstheman-edit.jpg)
 
