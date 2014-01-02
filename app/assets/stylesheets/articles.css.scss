@@ -17,10 +17,14 @@ input[type=text] {
 	width: 600px;	
 }
 
-.wysihtml5 {
+#wysihtml5 {
 	width: 800px;
 	height: 600px;
 }
+.span9 p ul {
+	margin-bottom: 0;
+}
+
 
 .row ul {
 	margin: 20px 40px;

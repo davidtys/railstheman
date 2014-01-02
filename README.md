@@ -31,10 +31,9 @@ it contains 'quote' or 'article' or nothing (your goold old article)
 
 ## The generated html
 
-Please note that the Wysihtml5 editor is very light :
-it doesn't manage the paragraphs, and its code for lists and indents is not readable by all browsers.
+Please note that the Wysihtml5 editor is very light : for example it doesn't manage the paragraphs.
 
-Perhaps I'll change it later (Mercury, I'm looking at you!), but it does the job for base font and insert, and at the end it's all we really need, right ?
+Perhaps I'll change it later, but it does the job for base font and insert, and at the end it's all we really need, right ?
 
 
 ## Business projects
