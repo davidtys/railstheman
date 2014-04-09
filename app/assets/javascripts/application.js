@@ -13,7 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
-//= require bootstrap-wysihtml5
 //= require stupidtable.min
-
+//= require tinymce-jquery
 //= require_tree .

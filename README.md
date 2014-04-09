@@ -2,7 +2,7 @@
 
 <a href='http://rubyonrails.org/'>Rails</a> editor for the <a href='http://middlemanapp.com/basics/blogging/'>middleman blog</a>
 
-Manage your articles in your browser.
+Have a rich editor to write your articles in middleman and sort them in list.
 
 ![Alt demo](readme/railstheman-index.jpg)
 
@@ -18,9 +18,9 @@ After you have copied this project, define the path to your middleman applicatio
 
 ## Features
 
-You can see the list of your articles and sort them, create a new one, show it and edit it.
+It uses <a href='http://www.tinymce.com/'>TinyMCE</a> as editor with the gem<a href='https://github.com/spohlenz/tinymce-rails'>tinymce-rails</a>, and <a href='https://github.com/joequery/Stupid-Table-Plugin'>Stupid jQuery Table Sort</a> to sort the articles table.
 
-It uses my <a href='https://github.com/davidtysman/writetheman'>Writetheman</a> gem to manage the middleman files, <a href='https://github.com/Nerian/bootstrap-wysihtml5-rails'>Wysihtml5</a> as editor and <a href='https://github.com/joequery/Stupid-Table-Plugin'>Stupid jQuery Table Sort</a> to sort the articles table.
+With my <a href='https://github.com/davidtysman/writetheman'>Writetheman</a> gem to manage the middleman files,
 
 
 ## The Quote
@@ -31,13 +31,6 @@ It uses the header parameters to add the author and source to an article.
 
 To differentiate between the basic article and the quote, it adds 'category' in the header parameters :
 it contains 'quote' or 'article' or nothing (your goold old article)
-
-
-## It is not a word-editor
-
-Please note that the Wysihtml5 editor is very light : for example it doesn't manage the paragraphs.
-
-Perhaps I'll change it later, but it does the job for base font and insert, and it's all we really need, right ?
 
 
 ## Business projects

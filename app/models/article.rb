@@ -47,7 +47,8 @@ class Article
     end
 
     def init
-      @date = DateTime.now if @date.nil?
+      # set hour to midnight to avoid some jet lag in the display
+      @date = DateTime.now.change({:hour => 0 , :min => 0 , :sec => 0 }) if @date.nil?
       @article = article_new
       @article.title = @title
       @article.date = @date

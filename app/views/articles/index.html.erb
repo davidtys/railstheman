@@ -1,3 +1,5 @@
-<h1><%= @articles.size %> Articles <span class='about'>(click on the header titles to sort the table)</span></h1>
+<h1><%= @articles.size %> Articles <span class='about'>(path in config/application.rb : <%= Railstheman::Application.config.path_application %>)</span></h1>
+
+Click on the header titles to sort the table
 
 <%= render 'articles', articles: @articles %>

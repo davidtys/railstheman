@@ -6,7 +6,7 @@ gem 'sqlite3'
 gem 'jquery-rails'
 gem 'jbuilder'
 
-gem 'writetheman', '>= 0.2.1'
+gem 'writetheman', '>= 0.2.3'
 gem 'htmlentities'
 
 group :assets do
@@ -20,7 +20,8 @@ group :assets do
 end
 
 gem 'twitter-bootstrap-rails'
-gem 'bootstrap-wysihtml5-rails'
+
+gem 'tinymce-rails'
 
 
 

@@ -20,6 +20,6 @@ module Railstheman
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    config.path_application = '/home/david/dev/ruby/middleman/mandavidtysman'
+    config.path_application = '/home/david/dev/ruby/middleman/electricsheepdream'
   end
 end

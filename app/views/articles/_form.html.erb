@@ -13,7 +13,7 @@
   </p>
 
   <p>
-  <%= f.text_area :body, id: 'wysihtml5' %>
+  <%= f.text_area :body, :class => "tinymce", :rows => 40, :cols => 120  %>
   </p>
 
   <p>
@@ -21,4 +21,6 @@
   </p>
   
 <% end %>
+
+<%= tinymce %>
 
