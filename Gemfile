@@ -6,7 +6,7 @@ gem 'sqlite3'
 gem 'jquery-rails'
 gem 'jbuilder'
 
-gem 'writetheman', '>= 0.2.3'
+gem 'writetheman', '>= 0.2.4'
 gem 'htmlentities'
 
 group :assets do

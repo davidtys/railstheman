@@ -6,6 +6,10 @@
 <% end %>
 </ul>
 
+<div class='edit'>
+<%= link_to "Edit #{@article.title}", get_article_edit_path(@article) %>
+</div>
+
 <%= @article.body.html_safe %>
 
 <div class='edit'>
