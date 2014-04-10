@@ -4,31 +4,28 @@
 
 Let's face it : Middleman is great to make static sites, but having to write our articles in code can be a pain.
 
-RailsTheMan is gives you a rich editor to write articles as you like.
+RailsTheMan gives you a rich editor to write your articles as you like.
 
-![Alt demo](readme/railstheman-index.jpg)
 
 ![Alt demo](readme/railstheman-edit.jpg)
 
 
 ## Config
 
-Of course you need Ruby on Rails.
-
-After you have copied this project, define the path to your middleman application (not the blog in your applicaiton) in config/application.rb :
+Define the path to your middleman application (not the blog in your applicaiton) in config/application.rb :
 
 	config.path_application = 'yourpath'
 
-You can change config the TinyMCE options in config/tinymce.yml
+You can also change the TinyMCE options in config/tinymce.yml
 
 
 # Start it
 
-You can just use it in local with the rails dev server :
+You can use it in local with the rails dev server :
 
    rails s
 
-It will list and create the articles in the path application
+It will list and create the articles in the path application of your middleman
 
 
 ## Features
@@ -37,9 +34,7 @@ It uses <a href='http://www.tinymce.com/'>TinyMCE</a> as editor with the gem<a h
 
 With my <a href='https://github.com/davidtysman/writetheman'>Writetheman</a> gem to manage and format the middleman files,
 
-In the editor two options I really like :
-Format/Inline/Code
-Tools/Source
+In the editor there are two options I really like : Format/Inline/Code and Tools/Source
 
 
 ## The Quote
