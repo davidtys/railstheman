@@ -21,5 +21,7 @@ module Railstheman
     # config.i18n.default_locale = :de
 
     config.path_application = '/home/david/dev/ruby/middleman/electricsheepdream'
+
+    config.format_display_date = "%Y-%m-%d"
   end
 end

@@ -9,7 +9,7 @@ Have a rich editor to write your articles in middleman and sort them in list.
 ![Alt demo](readme/railstheman-edit.jpg)
 
 
-## Usage
+## Config
 
 After you have copied this project, define the path to your middleman application (not the blog in your applicaiton) in config/application.rb :
 

@@ -2,6 +2,6 @@
 	<td class='title'><%= link_to article.title, get_article_show_path(article) %></td>
 	<td><%= article.tags %></td>
 	<td><%= article.header_params['category'] %></td>
-	<td><%= article.str_date %></td>
+	<td><%= article.date.year %>-<%= article.date.month %>-<%= article.date.day %></td>
 	<td><%= link_to "Edit", get_article_edit_path(article) %></td>
 </tr>
