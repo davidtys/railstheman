@@ -23,7 +23,7 @@ You can also change the TinyMCE options in config/tinymce.yml
 
 You can use it in local with the rails dev server :
 
-   rails s
+    rails s
 
 It will list and create the articles in the path application of your middleman
 
@@ -44,7 +44,7 @@ Note than railstheman doesn't set the hour in articles to avoid conflicts in the
 
 ## Features
 
-It uses <a href='http://www.tinymce.com/'>TinyMCE</a> as editor with the gem<a href='https://github.com/spohlenz/tinymce-rails'>tinymce-rails</a>, and <a href='https://github.com/joequery/Stupid-Table-Plugin'>Stupid jQuery Table Sort</a> to sort the articles table.
+It uses <a href='http://www.tinymce.com/'>TinyMCE</a> as editor with the gem <a href='https://github.com/spohlenz/tinymce-rails'>tinymce-rails</a>, and <a href='https://github.com/joequery/Stupid-Table-Plugin'>Stupid jQuery Table Sort</a> to sort the articles table.
 
 With my <a href='https://github.com/davidtysman/writetheman'>Writetheman</a> gem to manage and format the middleman files,
 
@@ -53,7 +53,7 @@ In the editor there are two options I really like : Format/Inline/Code and Tools
 
 ## The Quote
 
-I added a new type of article, the quote :
+railstehman gives a new type of article, the quote :
 
 It uses the header parameters to add the author and source to an article.
 
