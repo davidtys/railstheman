@@ -46,9 +46,8 @@ class Article
       @category = @article.header_params['category']
     end
 
-    def init
-      # set hour to midnight to avoid some jet lag in the display
-      @date = DateTime.now.change({:hour => 0 , :min => 0 , :sec => 0 }) if @date.nil?
+    def init      
+      @date = DateTime.now if @date.nil?
       @article = article_new
       @article.title = @title
       @article.date = @date

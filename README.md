@@ -27,6 +27,17 @@ You can use it in local with the rails dev server :
 
 It will list and create the articles in the path application of your middleman
 
+## Timezone
+
+please set the timezone in your middlemanblog config.rb :
+
+   Time.zone = "Paris"
+
+(you can read about it at http://middlemanapp.com/basics/blogging/)
+
+and set the same timezone in railstheman config/application.rb :
+
+   config.time_zone = 'Paris'
 
 ## Features
 

@@ -23,5 +23,6 @@ module Railstheman
     config.path_application = '/home/david/dev/ruby/middleman/electricsheepdream'
 
     config.format_display_date = "%Y-%m-%d"
+    config.time_zone = 'Paris'
   end
 end
