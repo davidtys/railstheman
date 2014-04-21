@@ -47,7 +47,8 @@ class Article
     end
 
     def init      
-      @date = DateTime.now if @date.nil?
+      # don't take hour to avoid problems in timezone
+      @date = DateTime.now.to_date if @date.nil?
       @article = article_new
       @article.title = @title
       @article.date = @date

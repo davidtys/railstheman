@@ -14,12 +14,12 @@ RailsTheMan gives you a rich editor to write your articles as you like.
 
 Define the path to your middleman application (not the blog in your applicaiton) in config/application.rb :
 
-	config.path_application = 'yourpath'
+    config.path_application = 'yourpath'
 
 You can also change the TinyMCE options in config/tinymce.yml
 
 
-# Start it
+## Start it
 
 You can use it in local with the rails dev server :
 
@@ -29,15 +29,18 @@ It will list and create the articles in the path application of your middleman
 
 ## Timezone
 
-please set the timezone in your middlemanblog config.rb :
+If you have set the timezone in your middlemanblog config.rb :
 
-   Time.zone = "Paris"
+    Time.zone = "Paris"
 
-(you can read about it at http://middlemanapp.com/basics/blogging/)
 
-and set the same timezone in railstheman config/application.rb :
+please set the same timezone in railstheman config/application.rb :
 
-   config.time_zone = 'Paris'
+    config.time_zone = 'Paris'
+
+
+Note than railstheman doesn't set the hour in articles to avoid conflicts in the timezone
+
 
 ## Features
 
@@ -60,7 +63,7 @@ it contains 'quote' or 'article' or nothing (your goold old article)
 
 ## Business projects
 
-If you need a middleman editor for business, have a look to the Middleman paid extension : 
+Have a look to the Middleman paid extension : 
 <a href='http://middleman-blog-editor.awardwinningfjords.com/'>Middleman Blog Editor</a>
 
 ## License
